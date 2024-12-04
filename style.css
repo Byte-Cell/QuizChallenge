@@ -1,0 +1,76 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Fira Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2C18D;
+    background-color: #756AB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.question-card {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F1EB;
+    border-radius: 10px;
+}
+.play-btn {
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    border-radius: 10px;
+    color: #F2C18D;
+    padding: 10px 50px;
+    background-color: #FF204E;
+}
+.play-btn:hover {
+    background-color: #bd193a;
+}
+.score-card {
+    width: 50%;
+    height: 25%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F2F1EB;
+    border-radius: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.buttons {
+    background-color: #FF204E;
+    border: none;
+    border-radius: 15px;
+    color: #F2C18D;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.buttons:hover {
+    background-color: #bd193a;
+}
